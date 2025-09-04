@@ -11,6 +11,15 @@
         <module name="Task1" />
         <module name="Task3" />
       </profile>
+      <profile name="Annotation profile for Task4" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="Task4" />
+      </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Security_Tasks" target="17" />
@@ -21,6 +30,7 @@
       <module name="Task1" options="-parameters" />
       <module name="Task2" options="-parameters" />
       <module name="Task3" options="-parameters" />
+      <module name="Task4" options="-parameters" />
     </option>
   </component>
 </project>

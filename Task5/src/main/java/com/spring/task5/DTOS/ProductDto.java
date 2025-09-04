@@ -20,7 +20,6 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 public class ProductDto {
 
-
     private int id;
     @NotBlank
     private String name;

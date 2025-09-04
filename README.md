@@ -72,5 +72,50 @@ This task demonstrates **Database-Based Authentication** using **Spring Security
 - Maven
 
 ---
+# 📝 Task 5: Category, Product, and Order Management System  
 
-## 📁 Structure:
+## ✅ Objective
+Create a system to manage **Categories**, **Products**, and **Orders with Order Items** using Spring Boot and MySQL.  
+
+---
+
+## ✅ Features Implemented
+- Built a **RESTful API** using **Spring Boot**.
+- Implemented CRUD operations for **Categories**, **Products**, and **Orders**.
+- Used **DTOs** with **MapStruct** for object mapping.
+- Added **input validation** using **Spring Validation**.
+- Integrated with **MySQL** using **Spring Data JPA & Hibernate**.
+- Handled **error responses gracefully** with appropriate HTTP status codes.
+
+---
+
+## ✅ Endpoints
+
+### **Category Endpoints**
+| Method | URL                   | Description                     |
+|--------|------------------------|---------------------------------|
+| POST   | `/categories`          | Create a new category          |
+| GET    | `/categories`          | Retrieve all categories        |
+| GET    | `/categories/{id}`     | Retrieve a category by ID      |
+| PUT    | `/categories/{id}`     | Update a category by ID        |
+| DELETE | `/categories/{id}`     | Delete a category by ID        |
+
+### **Product Endpoints**
+| Method | URL                   | Description                     |
+|--------|------------------------|---------------------------------|
+| POST   | `/products`            | Create a new product           |
+| GET    | `/products`            | Retrieve all products          |
+| GET    | `/products/{id}`       | Retrieve a product by ID       |
+| PUT    | `/products/{id}`       | Update a product by ID         |
+| DELETE | `/products/{id}`       | Delete a product by ID         |
+
+### **Order Endpoints**
+| Method | URL                   | Description                     |
+|--------|------------------------|---------------------------------|
+| POST   | `/orders`              | Create a new order             |
+| GET    | `/orders`              | Retrieve all orders            |
+| GET    | `/orders/{id}`         | Retrieve an order by ID        |
+| PUT    | `/orders/{id}`         | Update an order by ID          |
+| DELETE | `/orders/{id}`         | Delete an order by ID          |
+
+---
